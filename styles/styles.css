@@ -1,0 +1,204 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+
+  margin-top: 12px;
+  margin-right: 7px;
+}
+
+a {
+  color: rgb(41, 41, 41);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+
+  text-decoration: none;
+
+  margin-left: 15px;
+  margin-right: 0px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(41, 41, 41);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+
+  text-decoration: none;
+}
+
+.apps-icon-container {
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 20px;
+
+  width: 38px;
+  height: 38px;
+
+  margin-left: 15px;
+  margin-right: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apps-icon-container:hover {
+  background-color: rgb(243, 243, 243);
+
+  cursor: pointer;
+}
+
+.apps-icon {
+  width: 60%;
+
+  opacity: 0.6;
+}
+
+.profile-picture-container {
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 20px;
+
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture-container:hover {
+  background-color: rgb(233, 233, 233);
+
+  cursor: pointer;
+}
+
+.profile-picture {
+  border-radius: 50%;
+
+  width: 80%;
+  height: 80%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 5px;
+}
+
+.services-container {
+  background-color: white;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar-container {
+  margin-top: 35px;
+
+  position: relative;
+}
+
+.search-bar {
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 1px 8px rgba(144, 144, 144, 0.5);
+
+  font-family: Roboto, Arial;
+  font-size: 16px;
+
+  height: 42px;
+  width: 460px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.search-icon {
+  height: 20px;
+
+  position: absolute;
+
+  top: 12px;
+  left: 18px;
+}
+
+.voice-search-icon {
+  height: 21px;
+
+  position: absolute;
+
+  top: 12px;
+  right: 18px;
+}
+
+.voice-search-icon:hover {
+  cursor: pointer;
+}
+
+.bookmarks-container {
+  margin: 20px;
+
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.bookmark-item {
+  background-color: white;
+  border-radius: 5px;
+
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  margin: 0px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookmark-item:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+.bookmark-icon-container {
+  background-color: rgb(240, 240, 240);
+
+  border-radius: 50%;
+
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookmark-icon {
+  border-radius: 0%;
+
+  width: 50%;
+  height: 50%;
+}
+
+.bookmark-name {
+  font-family: Roboto, Arial;
+
+  text-decoration: none;
+}
